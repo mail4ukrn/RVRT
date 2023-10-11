@@ -24,7 +24,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--task', type=str, default='001_RVRT_videosr_bi_REDS_30frames', help='tasks: 001 to 006')
     parser.add_argument('--sigma', type=int, default=0, help='noise level for denoising: 10, 20, 30, 40, 50')
-    parser.add_argument('--folder_lq', type=str, default='testsets/REDS4/sharp_bicubic',
+    parser.add_argument('--folder_lq', type=str, default='testsets/uploaded',#'testsets/REDS4/sharp_bicubic',
                         help='input low-quality test video folder')
     parser.add_argument('--folder_gt', type=str, default=None,
                         help='input ground-truth test video folder')
